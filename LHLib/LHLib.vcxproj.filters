@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{564ed553-f2d8-4e05-ac90-d2020ce39779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Test">
+      <UniqueIdentifier>{ceef2227-35c0-49ac-90d0-e686cf9ca5d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LHLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\LHObject.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Public\LHString.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public\LH_Def.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LH_Mem.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LH_Switch.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LH_Win.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHHeap.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHObject.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHString.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHException.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LH_Debug.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LH_Privilege.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHThread.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHLib.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHSRWGlobal.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHFile.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHSystemInfo.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHJob.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHServices_Def.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHServices.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LH_Sock.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHSvcMgr.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHSocketStartup.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LH_TCPIP.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHWinSockExApi.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHIOCPBase.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHIOPacket.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHIOCPTCP.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestFile.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestThread.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestTcpClient.h">
+      <Filter>头文件\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHIOCPUDP.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LH_TCPIPHeader.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHPing.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHTraceroute.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
