@@ -130,10 +130,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LHLib.cpp" />
+    <ClCompile Include="Public\Basic.cpp" />
     <ClCompile Include="Public\LHObject.cpp" />
     <ClCompile Include="Public\LHString.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Public\Basic.h" />
+    <ClInclude Include="Public\LHFileSystemWatcher.h" />
     <ClInclude Include="Public\LHPing.h" />
     <ClInclude Include="Public\LHIOCPUDP.h" />
     <ClInclude Include="Public\LHIOCPBase.h" />

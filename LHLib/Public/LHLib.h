@@ -25,6 +25,7 @@
 #include "LHThread.h"
 #include "LHSRWGlobal.h"
 #include "LHFile.h"
+#include "LHFileSystemWatcher.h"
 #include "LHJob.h"
 
 //服务支持部分

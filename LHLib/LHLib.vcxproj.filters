@@ -30,6 +30,9 @@
     <ClCompile Include="Public\LHString.cpp">
       <Filter>Public</Filter>
     </ClCompile>
+    <ClCompile Include="Public\Basic.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Public\LH_Def.h">
@@ -129,6 +132,12 @@
       <Filter>Public</Filter>
     </ClInclude>
     <ClInclude Include="Public\LHTraceroute.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Basic.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\LHFileSystemWatcher.h">
       <Filter>Public</Filter>
     </ClInclude>
   </ItemGroup>

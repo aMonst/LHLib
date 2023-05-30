@@ -87,12 +87,11 @@ protected:
 
 protected:
 	//主要的收发方法，供派生类使用
-	BOOL RecvFrom0(void* pUserData)
+	BOOL RecvFrom0(void* pUserData, LPST_LH_IOCPUDP_OVERLAPPED pUdpOl)
 	{
 		BOOL bRet = TRUE;
 		try
 		{
-			LPST_LH_IOCPUDP_OVERLAPPED pUdpOl = (LPST_LH_IOCPUDP_OVERLAPPED)LH_CALLOC(sizeof(ST_LH_IOCPUDP_OVERLAPPED));
 			pUdpOl->m_lNetworkEvent = FD_READ;
 			pUdpOl->m_pUserData = pUserData;
 			WSABUF wb = { 0 };

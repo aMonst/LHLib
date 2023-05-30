@@ -363,6 +363,19 @@ void TestTraceRoute()
 	}
 }
 
+void TestFileSystemWatcher()
+{
+	CLHFileSystemWatcher watcher(_T("E:\\fxoffice\\main\\TestLIB\\Prj\\VS2017\\ReleaseOffice"), FALSE);
+	while (true)
+	{
+		SHORT nVirtKey = GetAsyncKeyState(VK_RETURN); 
+		if (nVirtKey == 1) 
+		{//按Enter键退出
+			break;
+		}
+		LH_DBGOUT(_T("主线程进入等待状态......\n"));
+	}
+}
 int main()
 {
 //	//testMemoryLeak();
@@ -377,6 +390,7 @@ int main()
 	CLHSocketStartup initSock;
 	//TestTcpClient();
 	//TestPing();
-	TestTraceRoute();
+	//TestTraceRoute();
+	TestFileSystemWatcher();
 	return 0;
 }
